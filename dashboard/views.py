@@ -11,4 +11,10 @@ def index(request):
     return render(request, 'dashboard/index.html')
 
 def staff(request):
-    return render(request, 'staff.html')
+    return render(request, 'dashboard/staff.html')
+
+def products(request):
+    return render(request, 'dashboard/products.html')
+
+def inventory(request):
+    return render(request, 'dashboard/inventory.html')
