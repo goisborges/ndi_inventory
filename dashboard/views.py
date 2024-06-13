@@ -18,3 +18,6 @@ def products(request):
 
 def inventory(request):
     return render(request, 'dashboard/inventory.html')
+
+def categories(request):
+    return render(request, 'dashboard/categories.html')
