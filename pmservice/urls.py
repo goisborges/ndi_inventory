@@ -2,6 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.dashboard, name = 'pmservice')
+    path('', views.dashboard, name = 'pmservice-index')
 
 ]
